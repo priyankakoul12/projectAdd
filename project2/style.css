@@ -1,0 +1,56 @@
+
+body {
+    background-image: url("p.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form_bg {
+    background-image: url("p.jpg");
+
+
+    padding:20px;
+    border-radius:10px;
+    position: absolute;
+    border:1px solid #fff;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 320px;
+    height: 280px;
+}
+.align-center
+{
+    text-align: center;
+}
+.row
+{
+    margin-top: 0px;
+    margin-left: 500px;
+      width: 100px;
+      height: 100px;
+
+      position: relative;
+      -webkit-animation-name: example;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-delay: 2s;
+      -webkit-animation-fill-mode: both;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-delay: 0s;
+      animation-fill-mode: both;
+  }
+
+
+@-webkit-keyframes example {
+    from {top: 0px; }
+    to {top: 200px; }
+}
+
+@keyframes example {
+    from {top: 0px; }
+    to {top: 250px; }
+}
+

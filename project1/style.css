@@ -1,0 +1,26 @@
+
+body {
+    background-image: url('p.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+button:hover {
+    background-color:#008CBA;
+    color: white;
+}
+input{
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+div.a {
+    outline-style: solid;
+    outline-color: white;
+}
